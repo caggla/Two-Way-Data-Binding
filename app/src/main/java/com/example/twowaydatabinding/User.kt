@@ -1,3 +1,7 @@
 package com.example.twowaydatabinding
 
-data class User()
+
+data class User(
+    var name: String,
+    var email: String
+)
